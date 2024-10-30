@@ -47,7 +47,7 @@ export default defineConfig({
       toConsole: true
     },
     setupNodeEvents,
-    pageLoadTimeout: 120000,
-    baseUrl: 'https://tfl.gov.uk', // Correct placement of baseUrl
+    pageLoadTimeout: 300000,
+    baseUrl: 'https://tfl.gov.uk',
   }
 });

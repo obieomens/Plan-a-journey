@@ -2,7 +2,7 @@ import {getAnchorTag, getHeadingTwo} from "../../util/helper";
 
 export class HomePage {
     elements = {
-        getJourneyForm: () => cy.get('["plan-a-journey"]'),
+        //getJourneyForm: () => cy.get('["plan-a-journey"]'),
         getFromField: () => cy.get('input[id="InputFrom"]'),
         getToField: () => cy.get('input[id="InputTo"]'),
         getPlanJourneyButton: () => cy.get('input[id="plan-journey-button"]'),
